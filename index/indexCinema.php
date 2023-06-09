@@ -180,7 +180,7 @@
 
         } else if ($_POST["ageClient"] < "12" && $_POST["film"] == "Re-Animator") {
 
-            echo "<p>/b>Achat Impossible</b>  : vous êtes trop jeune pour ce film.</p>";
+            echo "<p><b>Achat Impossible</b>  : vous êtes trop jeune pour ce film.</p>";
 
         } else if ($_POST["film"] == "Pacific Rim" || $_POST["film"] == "Jurassic Park") {
 
